@@ -1,20 +1,46 @@
-venv/
+# =========================
+# ENV FILES (SECURITY)
+# =========================
 .env
+venv/
 
+# =========================
+# PYTHON CACHE
+# =========================
 __pycache__/
 *.pyc
 *.pyo
 
+# =========================
+# IDE / EDITOR
+# =========================
 .vscode/
-
 .ipynb_checkpoints/
 
+# =========================
+# LOGS
+# =========================
 logs/
 
-data/raw/
+# =========================
+# TELEGRAM SESSION FILES (IMPORTANT FIX)
+# =========================
+*.session
+telegram_session.session
 
+# =========================
+# DATA (IMPORTANT FOR THIS PROJECT)
+# =========================
+data/raw/
 data/processed/
 
+# =========================
+# DATABASE FILES
+# =========================
 *.db
+*.sqlite3
 
+# =========================
+# SYSTEM FILES
+# =========================
 .DS_Store
